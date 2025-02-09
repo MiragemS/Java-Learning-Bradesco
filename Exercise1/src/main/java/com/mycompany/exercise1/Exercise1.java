@@ -26,5 +26,6 @@ public class Exercise1 {
         tv.ligarDesligarTv();
         tv.selecionarCanal(34);
         tv.avancarCanal();
+          
     }
 }
