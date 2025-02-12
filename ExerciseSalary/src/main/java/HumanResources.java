@@ -37,7 +37,7 @@ public class HumanResources {
 
     public void tryCall(){
         for(Candidate validated : aproveCandidate){
-            int attempts = 0;
+            int attempts = 1, limit = 0;
             boolean validCall = false;
 
             System.out.println("Calling now: " + validated.getName());
@@ -45,13 +45,17 @@ public class HumanResources {
             do{
                 int randomNumber = ThreadLocalRandom.current().nextInt(1, 3);
                 if(1 == randomNumber) {
-                    System.out.println("We were able to contact " + validated.getName() + "after " + attempts + " attempts");
+                    System.out.println("We were able to contact " + validated.getName() + " after " + attempts + " attempts\n");
                     validCall = true;
+                    limit++;
                 }
                 else
-                    System.out.println();
+                    System.out.println("Trying to contact " + validated.getName() + " again...");
                 attempts++;
             }while(attempts < 3 && !validCall);
+
+            if(limit == 0)
+                System.out.println("We Were unable to contact " + validated.getName() + "\n");
         }
     }
 }

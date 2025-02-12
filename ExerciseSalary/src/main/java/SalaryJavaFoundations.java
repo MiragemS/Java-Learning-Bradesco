@@ -32,7 +32,8 @@ public class SalaryJavaFoundations {
         }while(option == 1);
 
         hr.selectedCandidates();
-        
+        System.out.println("\n");
+        hr.tryCall();
 
     }
 }
