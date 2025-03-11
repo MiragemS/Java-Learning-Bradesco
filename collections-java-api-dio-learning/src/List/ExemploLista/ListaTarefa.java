@@ -1,4 +1,4 @@
-package ExemploLista;
+package List.ExemploLista;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package PesquisaSet;
+package Set.PesquisaSet;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package PesquisaSet;
+package Set.PesquisaSet;
 
 public class Main {
     public static void main(String[] args) {

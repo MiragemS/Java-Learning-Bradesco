@@ -1,4 +1,4 @@
-package ExemploPesquisa;
+package List.ExemploPesquisa;
 
 import java.util.ArrayList;
 import java.util.List;

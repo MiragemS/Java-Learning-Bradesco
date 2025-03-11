@@ -1,8 +1,7 @@
-package OrdenacaoSet;
+package Set.OrdenacaoSet;
 
 import java.util.Comparator;
 import java.util.Objects;
-import java.util.Set;
 
 public class Produto implements Comparable<Produto>{
     private String nome;

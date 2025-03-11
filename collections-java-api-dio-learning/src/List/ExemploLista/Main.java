@@ -1,4 +1,4 @@
-package ExemploLista;
+package List.ExemploLista;
 
 public class Main {
     public static void main(String[] args) {
